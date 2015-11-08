@@ -32,6 +32,8 @@ public class Accepted extends Case {
 	public float getNumDaysTrial(){
 		return numDaysTrial;
 	}
-	
+	public String toString(){
+		return "NumLawyers: " + numLawyers + " Courthouse name:" +courthouseName + "Number of days trial is: " + numDaysTrial;
+	}
 	
 }

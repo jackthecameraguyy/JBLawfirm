@@ -11,4 +11,7 @@ public class Rejected {
 	public String getReason(){
 		return reason;
 	}
+	public String toString(){
+		return "Reason: " + reason;
+	}
 }
