@@ -10,10 +10,14 @@ public class User {
 		this.password = password;
 	}
 	
-	public String toString(){
-		return "Username: " + username + "Password: " + password;
-	}
+	
 	public void setType(String t){
 		this.type = t;
+	}
+	public String getType(){
+		return type;
+	}
+	public String toString(){
+		return "Username: " + username + "Password: " + password;
 	}
 }
