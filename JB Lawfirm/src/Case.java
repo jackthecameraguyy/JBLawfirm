@@ -1,7 +1,7 @@
 
 public class Case {
 	
-	double caseNumber;
+	int caseNumber;
 	String title;
 	String status;
 	
