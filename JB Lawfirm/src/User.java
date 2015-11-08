@@ -3,6 +3,7 @@ public class User {
 
 	String username;
 	String password;
+	String type;
 	
 	public User(String username, String password){
 		this.username = username;
@@ -11,5 +12,8 @@ public class User {
 	
 	public String toString(){
 		return "Username: " + username + "Password: " + password;
+	}
+	public void setType(String t){
+		this.type = t;
 	}
 }
