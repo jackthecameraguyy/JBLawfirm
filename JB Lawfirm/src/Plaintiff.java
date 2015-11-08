@@ -5,29 +5,36 @@ public class Plaintiff {
 	private String phone;
 	private String email;
 	
-	/**
-	 * sets the plaintiff's name
-	 * @param name
-	 */
-	public void setName(String name){
-		this.name = name;
-	}
 	
-	/**
-	 * sets the plaintiff's phone number
-	 * @param phone
-	 */
-	public void setPhone(String phone){
+	public Plaintiff(String name, String phone, String email){
+		this.name = name;
 		this.phone = phone;
-	}
-
-	/**
-	 * sets the plaintiff's email address
-	 * @param email
-	 */
-	public void setEmail(String email){
 		this.email = email;
 	}
+	
+//	/**
+//	 * sets the plaintiff's name
+//	 * @param name
+//	 */
+//	public void setName(String name){
+//		this.name = name;
+//	}
+//	
+//	/**
+//	 * sets the plaintiff's phone number
+//	 * @param phone
+//	 */
+//	public void setPhone(String phone){
+//		this.phone = phone;
+//	}
+//
+//	/**
+//	 * sets the plaintiff's email address
+//	 * @param email
+//	 */
+//	public void setEmail(String email){
+//		this.email = email;
+//	}
 	
 	/**
 	 * @return name
